@@ -29,9 +29,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-mycoolbutton {
-	width: 300px;  /* Set the desired width */
-	height: 200px;  /* Set the desired height */
+a.button {
+	padding: 1px 6px;
+	border: 1px outset buttonborder;
+	border-radius: 3px;
+	color: buttontext;
+	background-color: buttonface;
+	text-decoration: none;
 }
 
 body {
